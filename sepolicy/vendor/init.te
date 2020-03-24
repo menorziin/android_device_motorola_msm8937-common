@@ -10,3 +10,7 @@ allow init hidl_base_hwservice:hwservice_manager add;
 allow init ion_device:chr_file { read open ioctl };
 
 allow init system_server:binder { transfer call };
+
+allow init vendor_data_file:file lock;
+allow init hal_audio_default:binder call;
+allow init platform_app:binder call;
