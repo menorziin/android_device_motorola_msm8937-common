@@ -77,6 +77,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.5-service
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # CNE
 PRODUCT_PACKAGES += \
     libcnefeatureconfig
