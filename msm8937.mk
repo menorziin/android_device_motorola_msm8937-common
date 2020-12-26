@@ -67,9 +67,12 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_PACKAGES += \
     libbson.vendor \
-    Snap \
     libstdc++.vendor \
     libwui
+
+# Moto Camera
+PRODUCT_PACKAGES += \
+    MotCamera
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.5-service
