@@ -451,6 +451,27 @@ vendor/lib/libvqzip.so|0b906db131e99cd5460b8a72d05e86721243de95
 -vendor/lib/libMpeg4SwEncoder.so|ac4aaba9259a4868ad29a96c07a5814e1f569d47
 -vendor/lib/libOmxSwVencMpeg4.so|ed4200c66e3a185dd13952b3ccf6cc2524ded519
 
+# Moto FM Radio
+framework/qcom.fmradio.jar
+lib/libbtconfigstore.so
+lib/libqcomfm_jni.so
+lib64/libbtconfigstore.so
+lib64/libqcomfm_jni.so
+-product/app/FMPlayer/FMPlayer.apk
+-product/app/FMRadioService/FMRadioService.apk
+product/etc/permissions/com.motorola.software.fmradioservice.xml
+product/framework/qcom.fmradio_product.jar
+product/lib/libqcomfm_jni_product.so
+product/lib/vendor.qti.hardware.btconfigstore@1.0.so
+product/lib64/libqcomfm_jni_product.so
+product/lib64/vendor.qti.hardware.btconfigstore@1.0.so
+vendor/bin/init.qti.fm.sh
+vendor/init/init.qti.fm.rc
+vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so
+vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
+vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore
+
 # Perf - from X00RD - QKQ1.191002.002-17.07.2003.405-20200330
 lib/libqti-perfd-client_system.so|c021b1c1065161a15c2202747ef6738e89cd1b7b
 lib/libqti-util_system.so|3df0aa4365a085ab64ff1ae226bf724d0815aa25

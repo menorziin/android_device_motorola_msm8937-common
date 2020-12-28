@@ -394,4 +394,6 @@ PRODUCT_COPY_FILES += \
 
 # WiFi Display
 PRODUCT_BOOT_JARS += \
-    WfdCommon
+    WfdCommon \
+    qcom.fmradio \
+    qcom.fmradio_product
