@@ -78,6 +78,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     RemovePackages
 
+# Recorder
+PRODUCT_PACKAGES += \
+    OPScreenRecorder
+
+
 # CNE
 PRODUCT_PACKAGES += \
     libcnefeatureconfig
